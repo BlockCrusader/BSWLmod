@@ -1,0 +1,6 @@
+displayName = Block's Leveling Mod
+author = BlockCrusader
+version = 1.3.2
+includeSource = true
+hideResources = true
+homepage = https://forums.terraria.org/index.php?threads/blockcrusaders-mods.122946/

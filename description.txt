@@ -1,0 +1,59 @@
+Block's Leveling Mod adds a leveling mechanic to your weapons, allowing you to use them for longer if you dilligently use them in order to level them up. At its core, this leveling system is based on the one from Example Mod, but with a comprehensive overhaul to execute the mechanic in a fully fleshed out, balanced, and polished manner.
+
+Leveling Mechanics:
+This mod attempts to replicate level systems common to RPGs, in which it becomes exponentially difficult to level up, but also exponentially benefical to do so
+- By default, weapons can't level up - the mechanic must be activated - see the Runes section below for more details
+- Weapons that can gain XP will do so whenever they deal damage. In most cases XP gained is equal to damage dealt
+- Bosses, events, and worms all have multipliers which reduce the XP granted when fighting them, to combat power-leveling
+- The XP required to level up is calculated dynamically based on level; as a weapon level up, its XP requirements will steadily become greater
+- Weapons will gain a damage boost as they level up. It starts very small, but will add up with each level
+- The maximum level is 100, at which point weapons recieve x3 damage
+
+Runes:
+These are craftable items which activate a weapon's ability to gain XP and level up
+- Hold an applicable weapon and right click the Rune from your inventory to apply it to the weapon
+- Different Runes apply different 'Base XP' values to weapons, determining how easy or hard it is to gain levels
+- A weapon's Base XP is how much XP it needs to get from level 0 to level 1. This value is used to calculate all level thresholds
+- A weapon's rarity will dictate what tiers of Rune can be applied to it, with higher rarities requiring higher tiers
+- Higher tier Runes require materials from later in the game's progression, and apply higher Base XPs
+- All Runes' crafting stems from the Dormant Experience Rune, craft one with stone and a gem at a work bench to get started!
+- There are also Etheral Runes, which are special, easy to access counterparts that work on any weapon. 
+- Etheral Runes are ideal for bypassing progression and other barriers to suit your own tastes for balancing
+- Etheral Runes are also useful when it comes to weapons with modded rarities, which the mod defaults to one of the highest Base XP values possible...
+
+Experience Orbs:
+These are special items that rarely drop from enemies and can be used to bolster your weapon's training by instantly granting a dynamically calculated amount of XP
+- Hold an applicable weapon and right click the Experience Orb from your inventory to apply it to the weapon
+- XP granted by an orb dependents on its type/size and the base XP of the weapon it's applied to
+- There are 5 rarities of orb, with the rarer variants being stronger
+- There is also a sixth, special type which instead grants a single level to a weapon
+- Orbs drop in a dormant form, and must refined at a crafting station (the station depends on the type) to become usable
+- All orbs can also be crafted into counterparts which deduct XP, if you ever find a need to do that...
+
+Player Leveling:
+A semi-experimental addition that allows your player to level up as well
+- Players' ability to gain XP is relies only on config settings
+- Player XP gains are always equal to damage dealt, no exceptions. This makes it equal to your lifetime damage
+- Player XP requirements scale drastically higher than weapons; level 100 needs 10 billion XP! 
+- Player level can also confer a damage boost, though it is much smaller and is turned off by default
+
+Other Features:
+- Sound and text feedback upon leveling up. Both feedbacks are togglable
+- Tooltips detailing weapon XP, level, and power
+- Cross-mod features and compatibility with some of my other mods; 'Block's Special Rarities' and 'Weapon Augments'
+
+Configuration:
+Explore a vast amount of settings with (overly) informative descriptions to fine-tune balancing
+- Toggle and scale the potency of damage boosts from levels
+- Customize the rate(s) at which weapons gain XP and level up
+- Adjust level, XP, and damage boost caps
+- Customize item tooltips added by this mod
+- Toggle Experience Orb drops
+- Toggle Player Leveling and a damage boost to go with it
+- And more!
+
+Final notes:
+- As with all upgrading/leveling mods, this mod is NOT very vanilla friendly in nature; keep this in mind if you like balanced play
+- KNOWN ISSUE: Trietary projectiles (Ex: Crimson and Nimbus Rod's rain) are unable to grant XP to their respective weapons. Not sure if this can be fixed...
+- Due to what appears to be a tML bug, Minions and Sentries don't benefit from damage boosts when they should! To fix this, try the mod 'Minion ModifyWeaponDamage Patch'
+- Happy leveling!
