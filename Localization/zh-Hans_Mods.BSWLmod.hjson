@@ -38,7 +38,7 @@ CommonItemtooltip: {
 		'''
 		可用的经验符文:
 		{0} 或更高级的符文
-		任意空灵经验符文
+		任意以太符文
 		多面棱镜经验符文
 		技工经验符文
 		高能经验符文
@@ -61,7 +61,7 @@ CommonItemtooltip: {
 
 Items: {
 	BlueRune: {
-		DisplayName: 蓝色空灵经验符文
+		DisplayName: 蓝色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -73,7 +73,7 @@ Items: {
 	}
 
 	CyanRune: {
-		DisplayName: 青色空灵经验符文
+		DisplayName: 青色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -85,7 +85,7 @@ Items: {
 	}
 
 	GreenRune: {
-		DisplayName: 绿色空灵经验符文
+		DisplayName: 绿色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -97,7 +97,7 @@ Items: {
 	}
 
 	LightPurpleRune: {
-		DisplayName: 浅紫色空灵经验符文
+		DisplayName: 浅紫色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -109,7 +109,7 @@ Items: {
 	}
 
 	LightRedRune: {
-		DisplayName: 浅红色空灵经验符文
+		DisplayName: 浅红色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -121,7 +121,7 @@ Items: {
 	}
 
 	LimeRune: {
-		DisplayName: 青柠色空灵经验符文
+		DisplayName: 青柠色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -133,7 +133,7 @@ Items: {
 	}
 
 	OrangeRune: {
-		DisplayName: 橙色空灵经验符文
+		DisplayName: 橙色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -145,7 +145,7 @@ Items: {
 	}
 
 	PinkRune: {
-		DisplayName: 粉色空灵经验符文
+		DisplayName: 粉色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -157,7 +157,7 @@ Items: {
 	}
 
 	PurpleRune: {
-		DisplayName: 紫色空灵经验符文
+		DisplayName: 紫色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -169,7 +169,7 @@ Items: {
 	}
 
 	RedRune: {
-		DisplayName: 红色空灵经验符文
+		DisplayName: 红色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -181,7 +181,7 @@ Items: {
 	}
 
 	WhiteRune: {
-		DisplayName: 白色空灵经验符文
+		DisplayName: 白色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -193,7 +193,7 @@ Items: {
 	}
 
 	YellowRune: {
-		DisplayName: 黄色空灵经验符文
+		DisplayName: 黄色以太符文
 		Tooltip:
 			'''
 			{$CommonItemtooltip.EtherealRune}
@@ -389,12 +389,12 @@ Items: {
 	}
 
 	DormantEtherealRune: {
-		DisplayName: 沉寂空灵经验符文
+		DisplayName: 沉寂以太符文
 		Tooltip:
 			'''
-			用于制作各种空灵经验符文
-			不同于经验符文，所有的空灵经验符文制作不需要额外材料，并且可以镶嵌在任何稀有度的武器上
-			空灵经验符文适合镶嵌在有其它模组自定义稀有度的武器上
+			用于制作各种以太符文
+			不同于经验符文，所有的以太符文制作不需要额外材料，并且可以镶嵌在任何稀有度的武器上
+			以太符文适合镶嵌在有其它模组自定义稀有度的武器上
 			'如果你重视游戏平衡，请谨慎使用此类物品！'
 			'''
 	}
@@ -456,7 +456,7 @@ Items: {
 	}
 
 	BasicRune: {
-		DisplayName: 基础经验符文
+		DisplayName: 矿石经验符文
 		Tooltip:
 			'''
 			启用稀有度为白色或更低武器的经验获取和升级
