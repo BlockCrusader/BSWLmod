@@ -57,6 +57,7 @@ CommonItemtooltip: {
 	PlayerMaxOutPopup: Your level is maxed out!
 	Maxed: MAX
 	EX: EX
+	Gem: " gem"
 }
 
 Items: {
@@ -322,7 +323,7 @@ Items: {
 		DisplayName: Supercharged Experience Orb
 		Tooltip:
 			'''
-			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.XPOrb}
 			{$CommonItemtooltip.OrbUse}
 			Grants a massive amount of XP
 			'''

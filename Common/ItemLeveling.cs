@@ -595,12 +595,12 @@ namespace BSWLmod.Common
                 {
                     if (itemName != "")
                     {
-                        Main.NewText(Language.GetTextValue("Mods.BSWLmod.CommonItemtooltip.WeaponmaxOut").FormatWith(oldLevel, level, itemName)
+                        Main.NewText(Language.GetTextValue("Mods.BSWLmod.CommonItemtooltip.WeaponMaxOut").FormatWith(oldLevel, level, itemName)
                             , textColor);
                     }
                     else
                     {
-                        Main.NewText(Language.GetTextValue("Mods.BSWLmod.CommonItemtooltip.WeaponmaxOutDef").FormatWith(oldLevel, level)
+                        Main.NewText(Language.GetTextValue("Mods.BSWLmod.CommonItemtooltip.WeaponMaxOutDef").FormatWith(oldLevel, level)
                             , textColor);
                     }
                     CombatText.NewText(owner.Hitbox, textColor,
