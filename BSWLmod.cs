@@ -84,7 +84,7 @@ namespace BSWLmod
 		{
 			public override void AddRecipeGroups() 
 			{
-				RecipeGroup groupGems = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Gem", new int[] 
+				RecipeGroup groupGems = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + Language.GetTextValue("Mods.BSWLmod.CommonItemtooltip.Gem"), new int[] 
 				{
 				ItemID.Diamond,
 				ItemID.Amber,
@@ -97,7 +97,7 @@ namespace BSWLmod
 				});
 				RecipeGroup.RegisterGroup("DSWLmod:Gems", groupGems); 
 
-				RecipeGroup groupFrags = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Lunar Fragment", new int[] 
+				RecipeGroup groupFrags = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("LegacyMisc.51"), new int[] 
 				{
 				ItemID.FragmentStardust,
 				ItemID.FragmentVortex,
@@ -107,7 +107,7 @@ namespace BSWLmod
 				});
 				RecipeGroup.RegisterGroup("DSWLmod:LunarFrags", groupFrags);
 
-				RecipeGroup groupBars1 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Copper/Tin Bar", new int[]
+				RecipeGroup groupBars1 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("ItemName.CopperBar") + "/" + Language.GetTextValue("ItemName.TinBar"), new int[]
 				{
 				ItemID.CopperBar,
 				ItemID.TinBar
@@ -115,7 +115,7 @@ namespace BSWLmod
 				});
 				RecipeGroup.RegisterGroup("DSWLmod:Bars1", groupBars1);
 
-				RecipeGroup groupBars2 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Iron/Lead Bar", new int[] // TODO: Replace with vanilla group
+				RecipeGroup groupBars2 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("ItemName.IronBar") + "/" + Language.GetTextValue("ItemName.LeadBar"), new int[] // TODO: Replace with vanilla group
 				{
 				ItemID.IronBar,
 				ItemID.LeadBar
@@ -123,7 +123,7 @@ namespace BSWLmod
 				});
 				RecipeGroup.RegisterGroup("DSWLmod:Bars2", groupBars2);
 
-				RecipeGroup groupBars3 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Silver/Tungsten Bar", new int[] 
+				RecipeGroup groupBars3 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("ItemName.SilverBar") + "/" + Language.GetTextValue("ItemName.TungstenBar"), new int[] 
 				{
 				ItemID.SilverBar,
 				ItemID.TungstenBar
@@ -131,7 +131,7 @@ namespace BSWLmod
 				});
 				RecipeGroup.RegisterGroup("DSWLmod:Bars3", groupBars3);
 
-				RecipeGroup groupBars4 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Gold/Platinum Bar", new int[] 
+				RecipeGroup groupBars4 = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("ItemName.GoldBar") + "/" + Language.GetTextValue("ItemName.PlatinumBar"), new int[] 
 				{
 				ItemID.GoldBar,
 				ItemID.PlatinumBar
@@ -139,7 +139,7 @@ namespace BSWLmod
 				});
 				RecipeGroup.RegisterGroup("DSWLmod:Bars4", groupBars4);
 				 
-				RecipeGroup groupEvilStuff = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Shadow Scale/Tissue Sample", new int[] 
+				RecipeGroup groupEvilStuff = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("ItemName.ShadowScale") + "/" + Language.GetTextValue("ItemName.TissueSample"), new int[] 
 				{
 				ItemID.ShadowScale,
 				ItemID.TissueSample
@@ -147,7 +147,7 @@ namespace BSWLmod
 				});
 				RecipeGroup.RegisterGroup("DSWLmod:EvilStuff", groupEvilStuff);
 
-				RecipeGroup groupEvilDust = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Vile/Vicious Powder", new int[] 
+				RecipeGroup groupEvilDust = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("ItemName.VilePowder") + "/" + Language.GetTextValue("ItemName.ViciousPowder"), new int[] 
 				{
 				ItemID.VilePowder,
 				ItemID.ViciousPowder

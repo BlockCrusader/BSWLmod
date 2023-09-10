@@ -57,6 +57,7 @@ CommonItemtooltip: {
 	PlayerMaxOutPopup: 你的级别已满！
 	Maxed: 已到最大值！
 	EX: 已到等级上限
+	Gem: 宝石
 }
 
 Items: {
